@@ -1,7 +1,21 @@
-FROM golang:1.18
-RUN mkdir -p /go/src/app
+#FROM golang:1.18
+#RUN mkdir -p /go/src/app
+#WORKDIR /go/src/app
+#COPY . /go/src/app
+#EXPOSE 8080
+#RUN go build
+#CMD ["./route-timeout-test"]
+
+# Start by building the application.
+FROM golang:1.18 as build
+
 WORKDIR /go/src/app
-COPY . /go/src/app
-EXPOSE 8080
-RUN go build
-CMD ["./route-timeout-test"]
+COPY . .
+
+RUN go mod download
+RUN CGO_ENABLED=0 go build -o /go/bin/app
+
+# Now copy it into our base image.
+FROM gcr.io/distroless/static-debian11
+COPY --from=build /go/bin/app /
+CMD ["/app"]
