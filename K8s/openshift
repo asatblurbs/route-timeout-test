@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T18:49:30.123Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="N5jJguuEER_vQgDBpvFF" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T19:06:18.414Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="tbiHVL5HsTuNJyJSdBNY" version="22.0.8" type="github">
   <diagram name="Page-1" id="WyDS_RMZr_SMCK7_Kb9R">
-    <mxGraphModel dx="1108" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="1329" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7kKk03kzsGaWkHqP4xpB-28" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-61" y="-265" width="523" height="523" as="geometry" />
+        </mxCell>
         <mxCell id="7kKk03kzsGaWkHqP4xpB-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry y="-244" width="263" height="140" as="geometry" />
         </mxCell>
@@ -54,6 +57,27 @@
             <mxPoint x="319.75" y="59" as="sourcePoint" />
             <mxPoint x="223.25" y="-100" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7kKk03kzsGaWkHqP4xpB-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="7kKk03kzsGaWkHqP4xpB-4" target="7kKk03kzsGaWkHqP4xpB-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="228" y="55" as="sourcePoint" />
+            <mxPoint x="460" y="-15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7kKk03kzsGaWkHqP4xpB-30" value="Dataiku Instance" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_analytics_data_store;" vertex="1" parent="1">
+          <mxGeometry x="-305" y="-241" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7kKk03kzsGaWkHqP4xpB-36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="7kKk03kzsGaWkHqP4xpB-30" target="7kKk03kzsGaWkHqP4xpB-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="57" y="-60" as="sourcePoint" />
+            <mxPoint x="107" y="-110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7kKk03kzsGaWkHqP4xpB-37" value="Openshift/K8s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-35.25" y="-310" width="115.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7kKk03kzsGaWkHqP4xpB-40" value="Openshift&lt;br&gt;Control Plane" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-113" y="340" width="433" height="99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
