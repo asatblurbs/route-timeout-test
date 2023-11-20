@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T07:51:36.711Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="67sU6bla8I3_ZUJ3rNRO" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T09:17:10.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="FZOuEvC6MIANhFe6raaO" version="22.1.3" type="github">
   <diagram name="Page-1" id="xa_s4j9Y9mlsGVUMg-FO">
-    <mxGraphModel dx="1109" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1109" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UxRkpa6uaA32QnJWXq2x-15" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1. Dataiku(EDSP) calls and create s&lt;span style=&quot;background-color: initial;&quot;&gt;park driver running within a Kubernetes pod.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;3. The driver creates executors which are also running within Kubernetes pods and connects to them and executes application code.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="216.4" width="440" height="168" as="geometry" />
+          <mxGeometry x="90" y="-40" width="440" height="168" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
